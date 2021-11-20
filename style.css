@@ -1,0 +1,75 @@
+/* GERAL */
+html, body, header, main, footer, article, div, span, p, a, figure, img, small{
+    margin: 0;
+    /* zera a margem padrão dos navegadores */
+    padding: 0;
+    /* zera o espaçamento estre as letras e os itens padrão dos navegadores */
+    box-sizing: border-box;
+    /* limita um item a um tamanho definido que mesmo que adicionado padding ele vai manter o tamanho definido e não somar ao tamanho definido */
+    text-decoration: none;
+    /* para zerar decoraçoes padrão como azul em links e sublinhados e outras decorações padrão dos navegadores */
+    font-family: sans-serif;
+    /* selecionar tipo de fonte desejado no projeto */
+    outline: none;
+    /* zerar bordinhas dos inputs quando clicado sobre ele */
+}
+body{
+    background-color: green;
+}
+main{
+
+}
+header{    
+    text-align: center;    
+    }
+header span{
+    display: inline-block;
+    background-color: cornflowerblue;
+    padding: 1.5vw; 
+       
+}
+
+section.fixed{    
+    position: fixed;
+}
+.size{
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+.bebidas{    
+    width: 20%;
+    float: right;   
+}
+.floating{
+    width: 56%;   
+    text-align: center;
+    align-items: center;
+    margin-left: 20%;
+}
+caption{
+
+}
+h1{
+    font-size: 5vw;
+}
+h2{
+    font-size: 4vw;
+}
+.values table{
+    margin: auto;   
+}
+ul{
+    text-align: left;
+}
+li{
+    text-decoration: bold;
+}
+.map{    
+    
+}
+footer span{
+    background-color: lightblue;
+    display: block;
+    text-align: center;
+}
