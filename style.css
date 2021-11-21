@@ -38,6 +38,18 @@ section.fixed{
     text-align: center;
     float: left;
 }
+#i80{
+    border-radius: 40px;
+}
+#i100{
+    border-radius: 50px;
+}
+#i120{
+    border-radius: 60px;
+}
+#i140{
+    border-radius: 70px;
+}
 .bebidas{    
     width: 20%;    
     float: right;   
